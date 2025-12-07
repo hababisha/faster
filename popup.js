@@ -16,5 +16,5 @@ async function changeSpeed(delta) {
   });
 }
 
-document.getElementById("increase").addEventListener("click", () => changeSpeed(1.0));
+document.getElementById("increase").addEventListener("click", () => changeSpeed(0.5));
 document.getElementById("decrease").addEventListener("click", () => changeSpeed(-0.5));
